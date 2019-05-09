@@ -23,3 +23,8 @@
 5~c~init -> LILO -> Kernel
 5~d~LILO -> Kernel -> init
 5~true~d
+6~a~Linus Turvalds
+6~b~IBM
+6~c~Richard Stallman
+6~d~Minix
+6~true~a
