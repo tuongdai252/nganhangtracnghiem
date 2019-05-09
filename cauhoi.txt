@@ -1,0 +1,5 @@
+1~Ky tu * tuong ung voi
+2~Ky tu ? tuong ung voi
+3~Ky tu $ tuong ung voi
+4~De tro giup cach su dung cac cau lenh, ta dung lenh nao duoi day:
+5~Tien trinh khoi dong cua Linux la:
