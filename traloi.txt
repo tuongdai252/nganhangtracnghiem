@@ -1,30 +1,37 @@
-1~a~Tuong ung voi thu tu bat ky
-1~b~Tuong ung voi mot ky tu bat ky
-1~c~Tuong ung voi mot trong nhung ky tu trong ngoac hoac gioi han
-1~d~Tuong ung voi chuoi ky tu trong ngoac hoac gioi han
-1~true~a
-2~a~Tuong ung voi thu tu bat ky
-2~b~Tuong ung voi mot ky tu bat ky
-2~c~Tuong ung voi mot trong nhung ky tu trong ngoac hoac gioi han
-2~d~Tuong ung voi chuoi ky tu trong ngoac hoac gioi han
-2~true~b
-3~a~bat dau cua mot dong
-3~b~ket thuc cua mot dong
-3~c~bat dau mot tu
-3~d~ket thuc mot tu
-3~true~b
-4~a~#man <command_name>
-4~b~#help <command_name>
-4~c~#guide <command_name>
-4~d~command_name help
-4~true~a
-5~a~LILO -> init -> Kernel
-5~b~Kernel -> init -> LILO
-5~c~init -> LILO -> Kernel
-5~d~LILO -> Kernel -> init
-5~true~d
-6~a~Linus Turvalds
-6~b~IBM
-6~c~Richard Stallman
-6~d~Minix
-6~true~a
+
+1~A~Tuong ung voi thu tu bat ky
+1~B~Tuong ung voi mot ky tu bat ky
+1~C~Tuong ung voi mot trong nhung ky tu trong ngoac hoac gioi han
+1~D~Tuong ung voi chuoi ky tu trong ngoac hoac gioi han
+1~true~A
+2~A~Tuong ung voi thu tu bat ky
+2~B~Tuong ung voi mot ky tu bat ky
+2~C~Tuong ung voi mot trong nhung ky tu trong ngoac hoac gioi han
+2~D~Tuong ung voi chuoi ky tu trong ngoac hoac gioi han
+2~true~B
+3~A~bat dau cua mot dong
+3~B~ket thuc cua mot dong
+3~C~bat dau mot tu
+3~D~ket thuc mot tu
+3~true~B
+4~A~#man <command_name>
+4~B~#help <command_name>
+4~C~#guide <command_name>
+4~D~command_name help
+4~true~A
+5~A~LILO -> init -> Kernel
+5~B~Kernel -> init -> LILO
+5~C~init -> LILO -> Kernel
+5~D~LILO -> Kernel -> init
+5~true~D
+6~A~Linus Turvalds
+6~B~IBM
+6~C~Richard Stallman
+6~D~Minix
+6~true~A
+7~A~3
+7~B~4
+7~true~B
+7~C~7
+7~D~8
+7~E~6

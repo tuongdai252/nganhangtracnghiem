@@ -1,7 +1,7 @@
 1~Ky tu * tuong ung voi
-2~Ky tu ? tuong ung voi
 3~Ky tu $ tuong ung voi
-4~De tro giup cach su dung cac cau lenh, ta dung lenh nao duoi day:
 5~Tien trinh khoi dong cua Linux la:
+2~Ky tu ? tuong ung voi
+4~De tro giup cach su dung cac cau lenh, ta dung lenh nao duoi day:
 6~Ai la nguoi phat hanh phien ban dau tien cua Linux?
 7~Day la cau hoi thu may?
