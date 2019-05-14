@@ -122,7 +122,15 @@ add_answer(){
 post_exam(){
 	echo
 	echo "==========Xuat de thi=========="
-	sodong=`cat "$file_cauhoi" | wc -l`
+	rm -rf getquest.txt
+	while read cauhoi
+	do
+		socauhoi=`echo "$cauhoi" | cut -d'~' -f1`
+		ktcotraloi=`cat "$file_traloi" | grep "^$socauhoi~[A-E]~" | wc -l`
+		[ $ktcotraloi -ne 0 ] && echo "$cauhoi" >> getquest.txt
+	done < "$file_cauhoi"
+	
+	sodong=`cat getquest.txt | wc -l`
 	read -p "Nhap so luong cau hoi muon xuat: " socau
 	while ! [ $socau -eq $socau ] 2> /dev/null || [[ -z $socau ]] || [ $socau -lt 0 ] || [ $socau -gt $sodong ]
 	do
@@ -132,13 +140,6 @@ post_exam(){
 		[ $socau -gt $sodong ] && echo "Ngan hang de thi chi co $sodong cau hoi!!!"
 		read -p "Nhap so luong cau hoi muon xuat: " socau
 	done
-	rm -rf getquest.txt
-	while read cauhoi
-	do
-		socauhoi=`echo "$cauhoi" | cut -d'~' -f1`
-		ktcotraloi=`cat "$file_traloi" | grep "^$socauhoi~[A-E]~" | wc -l`
-		[ $ktcotraloi -ne 0 ] && echo "$cauhoi" >> getquest.txt
-	done < "$file_cauhoi"
 	cat getquest.txt | sort -R | head -"$socau" > dethi.txt
 	rm -rf getquest.txt
 	echo $socau > bailam.txt
